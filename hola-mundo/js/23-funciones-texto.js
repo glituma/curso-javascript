@@ -2,8 +2,8 @@
 
 //Transformar textos
 var numero= 444;
-var texto1 = "Bienvenido al Curso de JavaScript";
-var texto2 = "muy buen Curso";
+var texto1 = " Bienvenido al Curso de JavaScript";
+var texto2 = "muy buen Curso ";
 
 var dato = numero.toString();
     console.log(dato);
@@ -57,3 +57,13 @@ console.log(busqueda);
 //Remplazar texto
 busqueda = textoTotal.replace("JavaScript",".net 2010");
 console.log(busqueda);
+
+busqueda = textoTotal.slice(14,22);
+console.log(busqueda);
+//ojo
+busqueda = textoTotal.split(" ");
+console.log(busqueda);
+//ojo
+busqueda = textoTotal.trim();
+console.log(busqueda);
+
