@@ -1,7 +1,7 @@
 'user strict'
 
 /*
-Programa que muestre todos los numeros divisores introducidos en el prompt
+Programa que muestre todos los números divisores introducidos en el prompt
 */
 
 var numero = parseInt(prompt("Mete un numero: ", 1));

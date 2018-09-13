@@ -1,7 +1,7 @@
 'use strict'
 
 /*
-tabla de multipliciar de un numero introducio por pantalla
+tabla de multiplicar de un numero introducido por pantalla
 */
 
 var numero1 = 0;

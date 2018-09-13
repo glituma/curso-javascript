@@ -1,7 +1,7 @@
 'use strict'
 
 /*
-Mostrar todos los numeros impares que hay entre dos numeros introducidos por el usuario
+Mostrar todos los números impares que hay entre dos números introducidos por el usuario
 */
 
 var numero1 = 0;
