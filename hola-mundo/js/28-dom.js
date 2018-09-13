@@ -28,16 +28,25 @@ this.cambiaColor("black","yellow");
 var todosLosDivs = document.getElementsByTagName('div');
 
 //todosLosDivs.forEach(valor, indice) => {
+
+/*
+var seccion = document.querySelector('#miSeccion');
+var hr = document.createElement('hr');
+
 var valor;
+
 for(valor in todosLosDivs){  
     if(typeof(todosLosDivs[valor].textContent) == 'string'){
         var parrafo = document.createElement('p');
         var texto =  document.createTextNode(todosLosDivs[valor].textContent);
         parrafo.appendChild(texto);
-        document.querySelector("#miSeccion").appendChild(parrafo);
+        seccion.appendChild(parrafo);
     }  
     
 }
+seccion.appendChild(hr);
+*/
+
 /*
 var contenidoTexto = todosLosDivs[2];
 contenidoTexto.innerHTML = "ME CAMBIAN :(";
@@ -50,3 +59,39 @@ console.log(contenidoTexto);
 //Conseguir elementos por su clase css
 
 //console.log(caja);
+
+
+//conseguir elementos por su clase
+var divsRojos = document.getElementsByClassName('rojo');
+var divsAmarillos = document.getElementsByClassName('amarillo');
+/*
+for(var div in divsRojos){
+    if (divsRojos[div].className == "rojo"){
+        divsRojos[div].style.background = "Orange";
+    }    
+}
+*/
+
+/*
+for(var div in todosLosDivs){
+    if (todosLosDivs[div].className == "rojo"){
+        todosLosDivs[div].style.background = "Orange";
+    }    
+    if (todosLosDivs[div].className == "amarillo"){
+        todosLosDivs[div].style.background = "Purple";
+        todosLosDivs[div].style.color = "white";
+    }    
+}
+*/
+
+
+//Query selector
+
+var id = document.querySelector("#encabezado"); //# para h1 div hr p table
+var listaClaseRojo = document.querySelectorAll(".rojo");
+
+console.log(listaClaseRojo);
+
+
+//Plus
+//https://developer.mozilla.org/es/docs/Web/API/Document/querySelectorAll
