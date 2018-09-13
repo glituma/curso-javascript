@@ -15,7 +15,7 @@ while( numero1 < 0 || isNaN(numero1)){
 }
 
 while( numero2 < 0 || isNaN(numero2)){
-    numero2 = parseInt(prompt("Ingrese el primer numero: ",0));
+    numero2 = parseInt(prompt("Ingrese el segundo numero: ",0));
 }
 
 var resultado = "La suma es : " + (numero1+numero2) + " <br />" + 
