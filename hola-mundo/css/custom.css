@@ -7,10 +7,19 @@ body {
   background: #eeeeee;
   color:  #000;
   font-family: 'Roboto', sans-serif;
+  cursor: default;  
+  min-width: 360px;
+  min-height: 100%;
+  overflow-x: hidden;
+  text-align: -webkit-center;
 }
 
 .header p {
   font-size: 40px;
   text-align: center;
   padding: 20px 0;
+}
+
+div {
+  display: block;
 }
