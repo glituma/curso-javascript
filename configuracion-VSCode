@@ -1,7 +1,50 @@
-Plugins
+settings.json
+{
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Source Code Pro",
+  "workbench.settings.editor": "json",
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Sublime Material Theme - Dark",
+  "workbench.colorCustomizations": {},
+  "open-in-browser.default": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.rulers": [80],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": false
+  },
 
+  /*Configuración del Prettier*/
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": false,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme"
+  /*Fin de la configuración del Prettier*/
+}
+
+Plugins
 1)._ Live Server - Servidor de Desarrollo para poder visualizar lo que estamos desarrollando
 2)._ Htmltagwrap - Ajusta la selección en etiquetas HTML
+3)._ Prettier Formatter for Visual Studio Code
+
 
 Configuración
 1)._ Word Wrap - Controla cómo deben ajustarse las líneas (on)
