@@ -4,3 +4,4 @@ console.log("Contenedor", contenedor);
 contenedor.style.width = "200px";
 contenedor.style.height = "200px";
 contenedor.style.background = "red";
+contenedor.style.color = "yellow";
